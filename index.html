@@ -1,0 +1,290 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- Configuración básica del documento -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página introductoria al desarrollo web para estudiantes universitarios.">
+    <title>Introducción al Desarrollo Web</title>
+</head>
+
+<body>
+
+    <!-- 1. ENCABEZADO Y PRESENTACIÓN -->
+    <header>
+        <h1>Universidad Tecnológica de Panamá</h1>
+        <h2>Introducción al Desarrollo Web</h2>
+
+        <p>
+            Bienvenidos al curso de Introducción al Desarrollo Web.
+            En esta página aprenderemos los conceptos fundamentales
+            para comprender cómo funcionan las páginas web, sus tipos
+            y las herramientas utilizadas para crearlas.
+        </p>
+
+        <!-- Enlace interno a la sección de inscripción -->
+        <nav>
+            <a href="#conceptos">Conceptos básicos</a> |
+            <a href="#multimedia">Multimedia</a> |
+            <a href="#ejemplos">Ejemplos</a> |
+            <a href="#inscripcion">Inscripción</a>
+        </nav>
+    </header>
+
+    <hr>
+
+    <!-- 2. CONTENIDO EXPLICATIVO -->
+    <main>
+        <section id="conceptos">
+            <h2>Conceptos básicos del desarrollo web</h2>
+
+            <h3>¿Qué es una página web?</h3>
+            <p>
+                Una página web es un documento digital que se puede
+                consultar mediante un navegador, como Google Chrome,
+                Firefox o Microsoft Edge. Puede contener texto,
+                imágenes, videos, enlaces y otros elementos.
+            </p>
+
+            <h3>¿Cómo funciona una página web?</h3>
+            <p>
+                Cuando un usuario escribe una dirección web, el navegador
+                solicita los recursos al servidor correspondiente.
+                El servidor responde enviando los archivos necesarios
+                y el navegador los interpreta para mostrar la página.
+                <br>
+                HTML se utiliza para organizar y estructurar el contenido
+                de una página web.
+            </p>
+
+            <h3>Páginas web estáticas</h3>
+            <p>
+                Son páginas cuyo contenido permanece igual hasta que
+                alguien modifica sus archivos. Generalmente se construyen
+                con HTML y son apropiadas para mostrar información fija,
+                como una presentación personal o una página informativa.
+            </p>
+
+            <h3>Páginas web dinámicas</h3>
+            <p>
+                Son páginas cuyo contenido puede cambiar según las
+                acciones del usuario, los datos almacenados o la
+                información recibida de un servidor. Pueden utilizar
+                bases de datos y lenguajes de programación.
+            </p>
+
+            <h3>Diferencia entre sitio web y aplicación web</h3>
+            <p>
+                Un sitio web es un conjunto de páginas relacionadas
+                que comparten una dirección o dominio y presentan
+                información sobre un tema, organización o servicio.
+            </p>
+
+            <p>
+                Una aplicación web permite realizar tareas interactivas,
+                como enviar formularios, administrar información,
+                realizar compras o gestionar cuentas de usuario.
+                <br>
+                Por ejemplo, una página universitaria informativa es
+                un sitio web, mientras que un sistema de matrícula
+                en línea es una aplicación web.
+            </p>
+        </section>
+
+        <hr>
+
+        <!-- 3. ELEMENTOS MULTIMEDIA -->
+        <section id="multimedia">
+            <h2>Recursos multimedia</h2>
+
+            <h3>Imagen representativa del desarrollo web</h3>
+            <p>
+                La siguiente imagen representa el trabajo de un
+                desarrollador web.
+            </p>
+
+            <img
+                src="multimedia-min-scaled.jpg"
+                alt="Computadora con herramientas de desarrollo web"
+                width="450"
+            >
+
+            <h3>Video educativo</h3>
+            <p>
+                Observa este video introductorio sobre HTML y
+                los fundamentos de la creación de páginas web.
+            </p>
+
+            <!-- El video se inserta mediante un reproductor de YouTube -->
+            <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/fy8XjViEFoQ"
+                title="Curso introductorio de HTML"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen>
+            </iframe>
+
+            <h3>Audio</h3>
+            <p>
+                Recurso de audio para probar el reproductor multimedia
+                de HTML.
+            </p>
+
+            <audio controls>
+                <source
+                    src="Silent Partner - Spring In My Step.mp3"
+                    type="audio/mpeg"
+                >
+                Tu navegador no puede reproducir este audio.
+            </audio>
+        </section>
+
+        <hr>
+
+        <!-- 4. ENLACES -->
+        <section id="enlaces">
+            <h2>Enlaces de interés</h2>
+
+            <p>
+                Visita la documentación oficial de HTML para aprender
+                más sobre este lenguaje:
+                <a href="https://developer.mozilla.org/es/docs/Web/HTML"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Documentación de HTML en MDN
+                </a>
+            </p>
+
+            <p>
+                ¿Tienes dudas sobre el curso?
+                <a href="mailto:profesor@utp.ac.pa">
+                    Enviar correo al profesor
+                </a>
+            </p>
+
+            <p>
+                También puedes regresar al
+                <a href="#conceptos">apartado de conceptos básicos</a>.
+            </p>
+        </section>
+
+        <hr>
+
+        <!-- 5. TABLA DE TIPOS DE PÁGINAS WEB -->
+        <section id="ejemplos">
+            <h2>Ejemplos de páginas web</h2>
+
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Tipo de Página Web</th>
+                        <th>Descripción</th>
+                        <th>Ejemplo</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Estática</td>
+                        <td>Presenta información que cambia únicamente
+                            cuando se modifican sus archivos.</td>
+                        <td>Portafolio personal</td>
+                    </tr>
+
+                    <tr>
+                        <td>Dinámica</td>
+                        <td>Puede mostrar contenido actualizado según
+                            los datos o las acciones del usuario.</td>
+                        <td>Portal de noticias</td>
+                    </tr>
+
+                    <tr>
+                        <td>Aplicación web</td>
+                        <td>Permite realizar operaciones e interactuar
+                            con información.</td>
+                        <td>Sistema de matrícula</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <hr>
+
+        <!-- 6. FORMULARIO DE INSCRIPCIÓN -->
+        <section id="inscripcion">
+            <h2>Formulario de inscripción</h2>
+
+            <p>
+                Completa los siguientes campos para registrar
+                tus datos de estudiante.
+            </p>
+
+            <form action="#" method="post">
+
+                <label for="nombre">Nombre:</label><br>
+                <input type="text" id="nombre" name="nombre"
+                       required><br><br>
+
+                <label for="apellido">Apellido:</label><br>
+                <input type="text" id="apellido" name="apellido"
+                       required><br><br>
+
+                <label for="contrasena">Contraseña:</label><br>
+                <input type="password" id="contrasena"
+                       name="contrasena" required><br><br>
+
+                <label for="correo">Correo electrónico:</label><br>
+                <input type="email" id="correo" name="correo"
+                       required><br><br>
+
+                <label for="fecha">Fecha de nacimiento:</label><br>
+                <input type="date" id="fecha" name="fecha"
+                       required><br><br>
+
+                <label for="cedula">Cédula:</label><br>
+                <input type="text" id="cedula" name="cedula"
+                       placeholder="Ejemplo: 8-123-456" required><br><br>
+
+                <p>Modalidad de estudio:</p>
+
+                <input type="radio" id="presencial"
+                       name="modalidad" value="presencial" required>
+                <label for="presencial">Presencial</label><br>
+
+                <input type="radio" id="virtual"
+                       name="modalidad" value="virtual">
+                <label for="virtual">Virtual</label><br><br>
+
+                <label for="comentarios">Comentarios:</label><br>
+                <textarea id="comentarios" name="comentarios"
+                          rows="5" cols="40"
+                          placeholder="Escribe tus comentarios aquí..."></textarea>
+                <br><br>
+
+                <!-- Botones para enviar o limpiar los campos -->
+                <input type="submit" value="Enviar inscripción">
+                <input type="reset" value="Limpiar formulario">
+
+            </form>
+        </section>
+    </main>
+
+    <hr>
+
+    <!-- 7. PIE DE PÁGINA -->
+    <footer>
+        <p>
+            Universidad Tecnológica de Panamá
+            <br>
+            Curso: Introducción al Desarrollo Web
+            <br>
+            Página educativa creada utilizando únicamente HTML.
+        </p>
+    </footer>
+
+</body>
+</html>
